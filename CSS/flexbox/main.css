@@ -1,0 +1,16 @@
+.container{
+    background-color: khaki;
+    padding: 30px;
+    border: 1px solid black;
+
+    display: flex;
+   /* flex-direction: column;*/
+    flex-wrap: wrap;
+    
+}
+.box{
+    border: 2px solid black;
+    margin: 10px;
+    font-size: 10px;
+
+}

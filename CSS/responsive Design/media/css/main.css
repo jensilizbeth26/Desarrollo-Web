@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Media Queries */
+/*Cuando vamos a trabajar con media queries, 
+es importante tener en cuenta que el orden de los estilos es importante,
+ ya que si se coloca primero el estilo general y luego el de media queries, 
+ el estilo general se va a aplicar a todos los dispositivos, 
+ ya que se lee de arriba hacía abajo. Por lo tanto, es importante colocar primero
+  los estilos de media queries y luego los estilos generales.
+  Para mobile el minimo debe de ser 480px*/
+@media screen and (max-width:480px){
+    body{
+        background-color: blue;
+    }
+}
+
+/*Para tablet el minimo debe de ser 768px*/
+@media screen and (min-width:481px) and  (max-width:768px){
+    body{
+        background-color: green;
+    }
+}
+
+
+/*Para desktop el minimo debe de ser 1024px*/
+@media screen and (min-width:769px) and  (max-width:1024px){
+    body{
+        background-color: yellow;
+    }
+}

@@ -1,0 +1,23 @@
+/*formatear la pagina web con el siguiente comando*/
+/*{
+/   padding: 0;
+    margin: 0;
+    box-sizing: 0;
+}*/
+
+.card{
+    border: 1opx solid purple;
+    background-color: rgba(0, 0, 255, 0.425);
+    /* margin: 50px; */
+     margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px; 
+   /*margin: 25px 50px;*/
+    padding: 25px 30px;
+    border-radius: 12px;
+}
+
+.card:hover{
+    background-color:  rgb(161, 26, 67);
+}
