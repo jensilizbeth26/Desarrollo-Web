@@ -1,0 +1,27 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 400px;
+  border: 1px solid O red;
+}
+
+.hero-image{
+  width: 1 00%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.info{
+  align-self: center;
+}

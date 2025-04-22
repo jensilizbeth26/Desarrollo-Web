@@ -1,0 +1,17 @@
+.container{
+    border: 5px solid rgb(212, 127, 41);
+    background-color: blue;
+
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 150px;
+   
+    
+}
+
+
+.item{
+    border: 1px solid  aqua;
+    font-size: 2rem;;
+}
